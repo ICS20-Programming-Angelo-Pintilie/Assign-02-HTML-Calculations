@@ -1,0 +1,20 @@
+/* Created by: Angelo Pintilie
+* Created on: Mar 2022
+* This CSS file defines the style for index.html
+* Unit2-04-HTML-AreaPer-UserInput
+*/
+
+body {
+	background-color: LightSteelBlue;
+}
+
+h1 {
+	background-color: rgb(111, 139, 126);
+	color: hsl(555, 93%, 85%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #FFF0F5;
+}
