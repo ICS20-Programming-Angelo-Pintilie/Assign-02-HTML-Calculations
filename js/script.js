@@ -16,5 +16,5 @@ function calculate () {
   const volume = (side **3)
 
   // output
-  document.getElementById('volume').innerHTML = 'volume is: ' + volume + ' cm³'
+  document.getElementById('volume').innerHTML = 'volume is: ' + volume.toFixed(2) + ' cm³'
 }
