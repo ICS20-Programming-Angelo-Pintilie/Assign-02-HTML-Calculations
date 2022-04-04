@@ -6,15 +6,14 @@
 
 'use strict'
 /**
- * This function calculates the area and perimeter of the triangle.
+ * These functions calculate the volume and surface area of a cube.
  */
 function calculate () {
   // input
-  const base = parseFloat(document.getElementById('base-of-triangle').value)
-  const height = parseFloat(document.getElementById('height-of-triangle').value)
+  const side = parseFloat(document.getElementById('side-length-of-cube').value)
 
   // process
-  const area = (base * height) / 2
+  const area = (side **3)
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
