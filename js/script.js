@@ -13,8 +13,8 @@ function calculate () {
   const side = parseFloat(document.getElementById('side-length-of-cube').value)
 
   // process
-  const area = (side **3)
+  const volume = (side **3)
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
+  document.getElementById('volume').innerHTML = 'volume is: ' + volume + ' cm³'
 }
